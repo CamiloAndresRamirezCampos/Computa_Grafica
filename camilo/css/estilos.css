@@ -1,0 +1,59 @@
+body
+{
+	background-color:#00FFFF;
+         background:url(../imagen/mundo.png) no-repeat top left;
+	font-size: 12px;
+	font-family: cursive;
+	font-weight: bold;
+
+}
+
+#imagen1, #imagen2
+{
+  width: 63px;
+  height: 56px;
+  border: 2px solid blue;
+}
+
+.caminar
+{
+	background-image:url(../imagen/mundo.png) no-repeat top left;
+  background: url(../imagen/yoshi.png) no-repeat top left;
+}
+
+
+.uno
+{
+background-position: 0 0; width: 63px; height: 56px;
+}
+.dos
+{
+ background-position: -113px 0; width: 63px; height: 56px;
+}
+
+.tres
+{
+ background-position: -226px 0; width: 63px; height: 56px;  
+}
+
+.cuatro
+{
+ background-position: -339px 0; width: 63px; height: 56px;
+}
+
+.cinco
+{
+ background-position: -452px 0; width: 63px; height: 56px; 
+} 
+.seis
+{
+ background-position: -565px 0; width: 63px; height: 56px; 
+}
+.siete
+{
+background-position: -678px 0; width: 63px; height: 56px;
+}
+.ocho
+{
+  background-position: -791px 0; width: 63px; height: 57px;
+}

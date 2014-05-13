@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Camilo Andrés Ramírez Campos - 561212141</title>
+</head>
+<body>
+ <script type="text/javascript">
+
+ function Par ()
+{
+	alert ("ProgramaNumeroPar_ComputaciónGráfica");
+ var a=document.getElementById('numero').value; 
+ if (a%2==0)
+  document.getElementById('resultado').value = 'Es par'; 
+ else 
+  document.getElementById('resultado').value = 'Es impar'; 
+ 
+}
+ document.write('Digite un Numero<input type="text" n="numero" id="numero"/>'); 
+ document.writeln('<input type="button" n="btn_verificar" id="btn_verificar" value="ok" onClick="Par()" />'); 
+ document.writeln('<br/>Resultado <input type="text" name="resultado" id="resultado"/>');
+</script>
+</body>
+</html>
